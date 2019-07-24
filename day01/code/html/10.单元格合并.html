@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h2>合并行</h2>
+    <!-- 
+        tr*2>td*2------2个tr，每个tr里面有2个td
+        
+        合并的属性都给td添加
+        行合并--rowspan="n",删除本行下面相对于的n-1detd
+        列合并--colspan="n",删除本行里面的n-1个td
+    
+    -->
+    <table width="400" height="200" border="1" cellspacing="0">
+        <tr align="center">
+            <td rowspan="2">1</td>
+            <td>2</td>
+        </tr>
+        <tr align="center">
+           
+            <td>4</td>
+        </tr>
+    </table>
+    <h2>列合并</h2>
+    <table width="600" height="300" border="1" bordercolor="pink" cellspacing="0">
+       <tr align="center">
+           <td width="150">baweibawei</td>
+           <td></td>
+           <td width="150">nanananana</td>
+           <td></td>
+       </tr>
+       <tr align="center">
+           <td width="150">baweibawei</td>
+           <td colspan="3"></td>
+           <!-- <td></td>
+           <td></td> -->
+       </tr>
+       <tr align="center">
+           <td width="150">baweibawei</td>
+           <td colspan="3"></td>
+           <!-- <td></td>
+           <td></td> -->
+       </tr>
+       <tr align="center">
+           <td width="150">baweibawei</td>
+           <td colspan="3"></td>
+           <!-- <td></td>
+           <td></td> -->
+       </tr>
+       <tr align="center">
+           <td width="150">baweibawei</td>
+           <td colspan="3"></td>
+           <!-- <td></td>
+           <td></td> -->
+       </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <table width="500" height="500" border="1" bordercolor="yellow" cellspacing="0">
+        <tr align="center">
+            <td height="50" colspan="5">广州H5-1909班学员介绍</td>
+            <!-- <td></td>
+            <td></td>
+            <td></td>
+            <td></td> -->
+        </tr>
+        <tr align="center">
+            <td height="30" width="100">您的大名</td>
+            <td></td>
+            <td width="100">贵庚</td>
+            <td></td>
+            <td rowspan="5"></td>
+        </tr>
+        <tr align="center">
+            <td height="30" width="100">是否毕业</td>
+            <td></td>
+            <td width="100">专业是啥</td>
+            <td></td>
+            <!-- <td></td> -->
+        </tr>
+        <tr align="center">
+            <td height="30" width="100">大学名称</td>
+           <td colspan="3"></td> 
+            <!-- <td></td>
+            <td></td>  -->
+            <!-- <td></td> -->
+        </tr>
+        <tr align="center">
+            <td height="30" width="100">从事过工资</td>
+            <td colspan="3"></td>
+            <!-- <td></td>
+            <td></td> -->
+            <!-- <td></td> -->
+        </tr>
+        <tr align="center">
+            <td height="30" width="100">h5基础程度</td>
+            <td colspan="2"></td>
+            <!-- <td></td> -->
+            <td></td>
+            <!-- <td></td> -->
+        </tr>
+        <tr align="center">
+            <td height="50" width="100">自我描述</td>
+            <td colspan="4"></td>
+            <!-- <td></td>
+            <td></td>
+            <td></td>  -->
+        </tr>
+        <tr align="center">
+            <td width="100" height="80" rowspan="2">简述1，目标规划2，对h5疑惑3，建议</td>
+            <td rowspan="2"></td>
+            <td></td>
+            <td colspan="2"></td>
+            <!-- <td></td> -->
+        </tr>
+        <tr align="center">
+            <!-- <td>9</td> -->
+            <!-- <td></td> -->
+            <td></td>
+            <td colspan="2"></td>
+            <!-- <td></td> -->
+        </tr>
+        <tr align="center" height="20">
+            <td colspan="5"></td>
+            <!-- <td></td>
+            <td></td>
+            <td></td>
+            <td></td> -->
+        </tr>
+    </table>
+</body>
+</html>
