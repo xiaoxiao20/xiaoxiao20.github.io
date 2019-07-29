@@ -1,0 +1,391 @@
+#box{
+    width: 100%;
+    height: 1415px;
+    background-color: pink;
+}
+#box .content{
+    height: 100%;
+    width: 1240px;
+    background-color: white;
+    margin: auto;
+}
+/* -----main1-------- */
+.main1{
+    width: 100%;
+    height: 107px;
+    background-color: antiquewhite
+}
+.main1 .main1-nav{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+.main1 .main1-nav li{
+    height: 105px;
+    width: 412px;
+    /* background-color: aqua; */
+    position: relative;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;   
+}
+.main1 .main1-nav li:hover{
+    border-bottom: 2px solid #19d96e;   
+    
+}
+.main1 .main1-nav .logo1,.logo4{
+   position: absolute;
+   top: 25px;
+   left: 76px;
+    width: 56px;
+    height: 56px;
+    background: url(../images/images/logos.png) no-repeat;
+
+}
+.main1 .main1-nav .list1-2 .logo3{
+   position: absolute;
+   width: 56px;
+   height: 56px;
+}
+.main1 .main1-nav .list1-2 .logo2{
+    position: absolute;
+    width: 92px;
+    height: 56px;
+}
+.main1 .main1-nav .list1-2 .logo2{
+    left: 66px;
+   top: 25px;
+    background: url(../images/images/logos.png) no-repeat;
+    background-position: 0px -76px;
+
+}
+.main1 .main1-nav .list1-3 .logo4{
+background-position: 0px -153px;
+}
+
+    .main1 .main1-nav .list1-2 .logo3{
+    background: url(../images/images/logos.png) no-repeat;
+    left: 160px;
+    top: 25px;
+
+        background-position: -95px -76px;
+        }
+.main1 .main1-nav li span{
+    display:block;
+margin-left: 155px;
+  
+}
+.main1 .main1-nav .list1-2 span{
+    margin-left: 234px;
+}
+.main1 .main1-nav li .sp1,.sp3,.sp5{
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 9px;
+  margin-top: 37px;
+}
+.main1 .main1-nav li .sp2,.sp4,.sp6{
+    font-size: 12px;
+    line-height: 12px;
+    color: #999999;
+   
+}
+/* -----main2-------- */
+.main2{
+    width: 100%;
+    height: 280px;
+    background-color: greenyellow
+}
+.main2 .content .left{
+  height: 207px;
+    width: 912px;
+    position: relative;
+}
+.main2 .content .right{
+    height: 207px;
+    width: 326px;
+      position: relative;
+  }
+.main2 .content .h3-1,.h3-2{
+    width: 88px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #23ac6f;
+    border-left: 2px solid #23ac6f;
+    position: absolute;
+    left: 0;
+    margin-top: 38px;
+    text-align: center;
+  
+}
+.main2 .content span{
+    font-size: 12px;
+    line-height: 12px;
+   margin-top: 38px;
+margin-right: 15px;
+}
+.main2 .content .left p{
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 16px;
+    text-align: center;
+}
+.main2 .content .left div{
+    height: 206px;
+      width: 290px;
+      position: absolute;
+      border: 1px solid #ccc;
+      
+  }
+  .main2 .content .left .tu1{
+      top: 72px;
+      left: 0;
+  }
+  .main2 .content .left .tu2{
+    top: 72px;
+    left: 302px;
+}
+.main2 .content .left .tu3{
+    top: 72px;
+    left: 605px;
+}
+.main2 .content .right .rg{
+    height: 207px;
+    width: 324px;
+    position: absolute;
+    top:72px;
+}
+.main2 .content .right .rg .gr-1,.gr-2,.gr-3,.gr-4,.gr-5,.gr-6{
+    width: 106px;
+    height: 103px;
+    float: left;
+    border-right: 1px solid #ccc;
+    position: relative;
+ text-align: center;
+}
+.main2 .content .right .xtb-1,.xtb-2,.xtb-3,.xtb-4,.xtb-5,.xtb-6{
+width: 24px;
+height: 24px;
+background: url(../images/CSS\ Satyr.png) no-repeat;
+position: absolute;
+left: 42px;
+top: 14px;
+}
+.main2 .content .right .xtb-2{
+    background-position: 0 -30px;
+}
+.main2 .content .right .xtb-3{
+    background-position: 0 -60px;
+}
+.main2 .content .right .xtb-4{
+    background-position: 0 -90px;
+}
+.main2 .content .right .xtb-5{
+    background-position: 0 -120px;
+}
+.main2 .content .right .xtb-6{
+    background-position: 0 -150px;
+}
+.main2 .content .right .rg .p1{
+    font-size: 12px;
+    line-height: 12px;
+   margin-bottom: 9px;
+    margin-top: 49px;
+}
+.main2 .content .right .rg .p2{
+    width: 40px;
+    height: 17px;
+    font-size: 12px;
+    line-height: 17px;
+    border: 1px solid #ccc;
+    margin-left: 33px;
+}
+.main2 .content .rg{
+    border: 1px solid #ccc;
+}
+/* -----main3-------- */
+.main3{
+    width: 100%;
+    height: 212px;
+    background-color: yellow;
+ 
+}
+.main3 .content{
+    position: relative;
+    overflow: hidden;
+}
+.main3 .h3-1{
+    width: 125px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #23ac6f;
+    border-left: 2px solid #23ac6f;
+    position: absolute;
+    left: 0;
+    margin-top: 38px;
+    text-align: center;
+}
+.main3 .content .da{
+    width: 1242px;
+height: 142px;    
+margin-top: 70px;
+}
+.main3 .content .da .xiao{
+    width: 390px;
+    height: 140px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 33px;
+    position: relative;
+}
+.main3 .content .da .xiao .lf1{
+    width: 97px;
+    height: 91px;
+    background-image: url(../images/images/safe1.png);
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    
+}
+.main3 .content .da .xiao .lf2{
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/images/safe2.png);
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    
+}
+.main3 .content .da .xiao .lf3{
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/images/safe3.png);
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    
+}
+.main3 .content .da .xiao .rg{
+    width: 245px;
+    height: 100%;
+  
+}
+.main3 .content .da .xiao .rg h3{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 800;
+    margin-bottom: 9px;
+    margin-top: 33px;
+}
+.main3 .content .da .xiao .rg p{
+    font-size: 12px;
+    line-height: 22px;
+    color: #8a8a8a;
+    white-space: pre-line;
+}
+/* -----main4-------- */
+.main4{
+    width: 100%;
+    height: 813px;
+    background-color: orchid
+}
+.main4 .left{
+    position: relative;
+    width: 608px;
+    height: 100%;
+}
+.main4 .right{
+    position: relative;
+    width: 608px;
+    height: 100%;
+}
+.main4 .left-1{
+    width: 608px;
+    height: 736px;
+    position: relative;
+    border: 1px solid #ccc;
+    margin-top: 77px;
+}
+.main4 .left-1 .lf1{
+    width: 302px;
+    height: 140px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.main4 .left-1 .bg{
+    width: 60px;
+    height: 60px;
+    background: url(../images/CSS2.png);
+   position: absolute;
+   top: 41px;
+   left: 31px;
+}
+.main4 .left-1 .bg2{
+background-position: 0 -70px;
+}
+.main4 .left-1 .bg3{
+    background-position: 0 -145px;
+    }
+    .main4 .left-1 .bg4{
+        background-position: 0 -220px;
+        }
+        .main4 .left-1 .bg5{
+            background-position: 0 -295px;
+            }
+            .main4 .left-1 .bg6{
+                background-position: 0 -365px;
+                }
+                .main4 .left-1 .bg7{
+                    background-position: 0 -440px;
+                    }
+                    .main4 .left-1 .bg8{
+                        background-position: 0 -515px;
+                        }
+.main4 .left-1 .wz{
+    width: 192px;
+    height: 100%;
+    position: absolute;
+    left: 110px;
+} 
+.main4 .left-1 .wz a{
+   
+    height: 12px;
+}
+.main4 .right-1{
+    width: 608px;
+    height: 736px;
+    position: relative;
+    border: 1px solid #ccc;
+    margin-top: 77px;
+}
+.main4 .h3-1{
+    width: 125px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #23ac6f;
+    border-left: 2px solid #23ac6f;
+    position: absolute;
+    left: 0;
+    margin-top: 38px;
+    text-align: center;
+}
+.main4 .content .left .p1{
+    font-size: 16px;
+    line-height: 16px;
+   margin-bottom: 10px;
+    margin-top: 43px;
+}
+.main4 .content .left .p2,.p3{
+    width: 68px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    border: 1px solid #ccc;
+    margin-left: 0px;
+    text-align: center;
+}
+.main4 .content .left .p3{
+    position: absolute;
+    top: 70px;
+    left: 80px;
+}
