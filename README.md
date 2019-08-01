@@ -15,4 +15,4 @@
 <h2>day12作业---搜石网</h2>
 <a href="https://xiaoxiao20.github.io/day12---搜石网/html/搜石网">搜石网</a>
 <h2>day13作业---弹性盒子</h2>
-<a href="https://xiaoxiao20.github.io/day13---婚礼纪弹性盒子/html/婚礼纪弹性盒子">搜石网</a>
+<a href="https://xiaoxiao20.github.io/day13---婚礼纪弹性盒子/html/婚礼纪弹性盒子">婚礼纪弹性盒子</a>
