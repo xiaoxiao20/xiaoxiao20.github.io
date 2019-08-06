@@ -1,0 +1,119 @@
+html,body{
+    height: 100%;
+}
+#elm{
+height: 100%;    
+
+.header{
+    height: 2.533333rem;
+    background-color: #008cff;
+    overflow: hidden;
+    padding-left: .373333rem;
+            box-sizing: border-box;
+    .title{
+        background: url(../images/images/dz2.png) no-repeat;
+        background-position: 0 0;
+        background-size: .373333rem .4rem;
+        margin-top: .533333rem;
+        margin-bottom: .4rem;
+        h2{
+            color: white;
+            font-size: .426667rem;
+            line-height: .426667rem;
+            font-weight: 700;
+            margin-left: .533333rem;
+            display: inline-block;
+        }
+        span{
+        width: 0;
+        height: 0;
+        border: 6px solid transparent;
+        border-top-color:white; 
+        position: relative;
+        top: .266667rem;
+        left: .133333rem;
+        }
+    }
+    input{
+        width: 9.253333rem;
+        height: .933333rem;
+        border-top: 1px solid #65d9ff;
+        border-bottom: 1px solid #65d9ff;
+        color: #989898;
+        text-align: center;
+        background: url(../images/images/ss.png) no-repeat 2.133333rem center;
+        background-size: .373333rem .373333rem;
+        background-color: white;
+    }
+}
+.nav{
+    .top{
+        height: 4.693333rem;
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: .266667rem;
+            box-sizing: border-box;
+            li{
+                width: 18%;
+                text-align: center;
+                p{
+                    img{
+                        width: .973333rem;
+                    }
+                }
+            }
+        }
+    }
+    .bottom{
+        height: 2.933333rem;
+        background-color: #fafafa;
+        margin-left: .266667rem;
+        margin-right: .266667rem;
+        display: flex;
+        position: relative;
+        .lf{
+            margin-top: .4rem;
+            margin-left: .4rem;
+          h2{
+              font-size: .413333rem;
+              line-height: .413333rem;
+              font-weight:700;
+              margin-bottom: .213333rem;
+          }
+          .p1{
+              font-size: .293333rem;
+              line-height: .293333rem;
+              color: #7b7b7b;
+              margin-bottom: .32rem;
+          }
+          .p2{
+            a{
+                color: #b28460;
+                font-size: .293333rem;
+                line-height: .293333rem;
+            }
+          }
+        }
+        .rg{
+        position: absolute;
+        top: .333333rem;
+        right: .4rem;
+            img{
+                width: 3.546667rem;
+            }
+        }
+    }
+    .hy{
+        background-color: #fdebbb;
+        height: 1.066667rem;
+        margin-left: .266667rem;
+        margin-right: .266667rem;
+        margin-top: .066667rem;
+        display: flex;
+    }
+}
+}

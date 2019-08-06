@@ -242,11 +242,11 @@ display: block;
 }
 .banner .content .left {
     width: 200px;
-    height: 411px;
+    height: 400px;
     background-color: white;
     position: absolute;
     top: 0px;
-    left: 0;
+    left: 0px;
 }
 .banner .content .left .ti1,.ti2,.ti3{
 color: #999999;
@@ -279,23 +279,27 @@ background: url(../images/images/icon3.png) no-repeat 12px -30px;
     color: orange;
     text-decoration: underline;
 }
-.banner .content .left .lf1{
-    position: relative;
-}
 .banner .content .left .erji{
     position: absolute;
     background-color: white;
     width: 600px;
-    height: 411px;
-    top: -33px;
+    /* height: 400px; */
+    bottom: 0px;
+    top: 0px;
     left: 200px;
    padding-left: 30px;
    box-sizing: border-box;
+   border: 1px solid #dddddd;
+   display: none;
 }
-.banner .content .left .erji h2{
+.banner .content .left .erji .sexi h2{
     font-size: 16px;
     line-height: 16px;
     margin-top: 36px;
+    margin-bottom: 10px;
+}
+.banner .content .left .erji .sexi .ull{
+overflow: hidden;
 }
 .banner .content .left .erji ul li a{
     display: inline-block;
@@ -305,10 +309,112 @@ background: url(../images/images/icon3.png) no-repeat 12px -30px;
     line-height: 32px;
     color: #555555;
     text-decoration: none;
+   
+}
+/* .banner .content .left .erji .rem ul li a{
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 32px;
+    color: #555555;
+    text-decoration: none;
+   
+} */
+.banner .content .left .erji .sp{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.banner .content .left .erji .sp1{
+    background-color: yellow;
+}
+.banner .content .left .erji .sp2{
+    background-color: white;
+    border: 1px solid cadetblue;
+}
+.banner .content .left .erji .sp3{
+    background-color: grey;
+}
+.banner .content .left .erji .sp4{
+    background-color: black;
+}
+.banner .content .left .erji .sp5{
+    background-color: red;
+}
+.banner .content .left .erji .sp6{
+    background-color: green;
+}
+.banner .content .left .erji .sp7{
+    background-color: blue;
+}
+.banner .content .left .erji .sp8{
+    background-color: #976648;
 }
 .banner .content .left .erji a:hover{
     color: orange;
     text-decoration: underline;
+}
+.banner .content .left .erji .sexi ul .ys1{
+    margin-right: 0px;
+   background: url(../images/images/All@3x.png) no-repeat 45px center;
+   background-size: 13px;
+}
+.banner .content .left .erji .rem h2{
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 36px;
+    margin-bottom: 10px;
+}
+.banner .content .left .erji .rem{
+    margin-top: 30px;
+}
+.banner .content .left .lf1:hover .erji{
+    display: block;
+}
+.banner .content .left .lf2:hover .erji{
+    display: block;
+}
+.banner .content .left .lf3:hover .erji{
+    display: block;
+}
+.banner .content .right {
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.banner .content .right .top{
+    height: 235px;
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner .content .right .top h2{
+    margin-top: 52px;
+    margin-bottom: 22px;
+    width: 60px;
+    height: 60px;
+    background: url(../images/images/head@2x.png) no-repeat;
+    text-align: center;
+}
+.banner .content .right .top .p1{
+    font-size: 12px;
+    line-height: 12px;
+    color: #555555;
+}
+.banner .content .right .top .p2 span{
+    display: inline-block;
+    line-height: 24px;
+    color: #ff6000;
+    font-size: 12px;
+width: 68px;
+    border: 1px solid #ff6000;
 }
 /* ----------gd------------- */
 .gd{

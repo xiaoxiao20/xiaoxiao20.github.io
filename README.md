@@ -20,3 +20,7 @@
 <a href="https://xiaoxiao20.github.io/day14作业/html/开源博客">开源博客页面</a>
 <h2>day14作业---移动端页面</h2>
 <a href="https://xiaoxiao20.github.io/day14作业/html/移动 端页面">移动端页面</a>
+<h2>day15作业---饿了么</h2>
+<a href="https://xiaoxiao20.github.io/day15作业/html/elm">饿了么</a>
+<h2>day15作业---发现</h2>
+<a href="https://xiaoxiao20.github.io/day15作业/html/发现">发现</a>
