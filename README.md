@@ -24,3 +24,6 @@
 <a href="https://xiaoxiao20.github.io/day15作业/html/elm">饿了么</a>
 <h2>day15作业---发现</h2>
 <a href="https://xiaoxiao20.github.io/day15作业/html/发现">发现</a>
+<h2>day16作业---婚礼纪</h2>
+<a href="https://xiaoxiao20.github.io/day16作业/html/婚礼纪">婚礼纪</a>
+
